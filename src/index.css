@@ -1,13 +1,17 @@
-@import 'tailwindcss' ;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {font-family: prompt, sans-serif;
+* {
+  font-family: 'Prompt', sans-serif;
 }
-@theme {
-    --blue-950: #000814;
-    --blue-900: #001d3d;
-    --blue-800: #003566;
-    --yellow-500: #ffc300;
-    --yellow-400: #ffv608;
-    --yellow-300: #ffe345;
 
+/* Optioneel: custom theme kleuren */
+:root {
+  --blue-950: #000814;
+  --blue-900: #001d3d;
+  --blue-800: #003566;
+  --yellow-500: #ffc300;
+  --yellow-400: #ffb608;
+  --yellow-300: #ffe345;
 }
